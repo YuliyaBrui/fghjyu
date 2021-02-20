@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <header>
+      <div class="container_header">
+        <div class="photo">
+          <img src="img/photo_cv.png" alt="photo" />
+        </div>
+        <div class="container_name">
+          <h1>Yuliya Brui</h1>
+          <h3>CONTACTS:</h3>
+          <ul class="contacts">
+            <li>juljadivina@gmail.com</li>
+            <li>
+              <a href="https://github.com/YuliyaBrui">
+                https://github.com/YuliyaBrui
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="about_me">
+        <h2>ABOUT ME</h2>
+        <p>
+          I have been working as a chemical engineer since 2013. Having reached
+          a leading position, I do not see any prospects for growth and
+          development further in the industry. The same cannot be said about the
+          IT sphere. Abilities such as attention to detail, dedication,
+          perseverance allowed me to learn CSS and HTML on my own. Now I am
+          learning the basics of JS and improving my knowledge at RS School.
+        </p>
+        <hr />
+      </article>
+      <div class="container_main">
+        <div class="column_1">
+          <section class="skills">
+            <h2>SKILLS</h2>
+            <ul>
+              <li>HTML(HTML5)</li>
+              <li>CSS(CSS#)</li>
+              <li>JavaScript</li>
+              <li>Git</li>
+            </ul>
+          </section>
+          <section class="projects">
+            <h2>PROJECTS</h2>
+            <details>
+              <summary>
+                Decision of the task at
+                <a href="https://htmlacademy.ru/courses/351/run/15"
+                  >HTML-academy:</a
+                >
+              </summary>
+              <code>
+                let reviews=document.querySelectorAll(‘.review’);<br />
+                let button=document.querySelector(‘.submit-button’);<br />
+                let error=document.querySelector(‘.error’);<br />
+                for(let review of reviews){review.onchange=function()<br />
+                {if(review.dataset.evaluation===’bad’)<br />
+                {error.classList.add(‘shown’); button.disabled=true;}<br />
+                else{error.classList.remove('shown');button.disabled=false;}}};
+              </code>
+            </details>
+          </section>
+        </div>
+        <div class="column_2">
+          <section class="education">
+            <h2>EDUCATION</h2>
+            <div class="container">
+              <ul>
+                <li>RS School</li>
+                <li>HTML-Academy</li>
+                <li>
+                  BSU<br />
+                  Chemical faculty
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a
+                    href="https://app.rs.school/profile"
+                    title="my achievements"
+                    >my profile</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://htmlacademy.ru/profile/id1690415"
+                    title="my achievements"
+                    >my profile</a
+                  >
+                </li>
+                <li>2008-2013</li>
+              </ul>
+            </div>
+          </section>
+          <section class="languages">
+            <h2>LANGUAGES</h2>
+            <div class="container">
+              <ul>
+                <li>Belorussian</li>
+                <li>Russian</li>
+                <li>English</li>
+              </ul>
+              <ul>
+                <li>native</li>
+                <li>fluent</li>
+                <li>A2</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container_footer">
+        <nav>
+          <a href="https://rs.school/js/">
+            <img src="img/rs_school_js.svg" alt="rs-school" />
+          </a>
+          <a href="https://github.com/YuliyaBrui"
+            ><img src="img/github.png" alt="github"
+          /></a>
+        </nav>
+        <span> 2021</span>
+      </div>
+    </footer>
+  </body>
+</html>
